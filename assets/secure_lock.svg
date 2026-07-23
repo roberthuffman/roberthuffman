@@ -1,0 +1,15 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#0d1117" rx="10"/>
+  <style>
+    @keyframes pulse { 0% { opacity: 0.5; } 50% { opacity: 1; } 100% { opacity: 0.5; } }
+    .glow { animation: pulse 2s infinite; }
+  </style>
+  <!-- Lock Body -->
+  <rect x="60" y="100" width="80" height="60" rx="5" fill="#1f6feb" opacity="0.2" stroke="#1f6feb" stroke-width="2"/>
+  <!-- Lock Shackle -->
+  <path d="M 70 100 V 70 A 30 30 0 0 1 130 70 V 100" fill="none" stroke="#1f6feb" stroke-width="6" stroke-linecap="round" class="glow"/>
+  <!-- Keyhole -->
+  <circle cx="100" cy="120" r="8" fill="#58a6ff"/>
+  <path d="M 96 125 L 94 140 L 106 140 L 104 125 Z" fill="#58a6ff"/>
+  <text x="100" y="185" fill="#1f6feb" font-family="monospace" font-size="12" text-anchor="middle">PGP_ENCRYPTION_ACTIVE</text>
+</svg>
