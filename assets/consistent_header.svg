@@ -1,0 +1,13 @@
+<svg width="800" height="180" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="180" fill="#0d1117"/>
+  <style>
+    .title { fill: #1f6feb; font-family: 'Courier New', monospace; font-weight: bold; font-size: 38px; }
+    .subtitle { fill: #58a6ff; font-family: 'Courier New', monospace; font-size: 16px; }
+    .bracket { fill: #1f6feb; opacity: 0.4; }
+  </style>
+  <path d="M20 20 L40 20 L40 160 L20 160 Z" class="bracket"/>
+  <path d="M780 20 L760 20 L760 160 L780 160 Z" class="bracket"/>
+  <text x="60" y="75" class="title">NODE_02 // BLUE_ARCHITECT</text>
+  <text x="60" y="115" class="subtitle">[ SECTOR: DEFENSIVE_OPERATIONS ] [ STATUS: SHIELD_UP ]</text>
+  <text x="60" y="145" fill="#1f6feb" font-family="monospace" font-size="12" opacity="0.6">PROTOCOL: ALPHA_OSINT_OPSEC_AUDIT</text>
+</svg>
